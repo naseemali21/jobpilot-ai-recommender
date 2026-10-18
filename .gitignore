@@ -1,0 +1,27 @@
+# API keys and environment variables
+file.env
+.env
+.env.*
+!.env.example
+
+# Python environments and cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Large raw datasets and development artifacts
+data/techmap_jobs_sample_30000.jsonl
+data/jobpilot_jobs_snapshot.csv
+data/jobpilot_jobs_with_embedding_text.csv
+artifacts/job_embeddings.npy
+artifacts/job_faiss.index
+
+# Personal resume
+Naseem_Ali_Resume.pdf
