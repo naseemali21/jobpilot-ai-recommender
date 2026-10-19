@@ -61,7 +61,7 @@ The development notebook documents the ingestion, embedding, indexing, evaluatio
 ## Repository Structure
 
 ```text
-jobpilot-portfolio/
+jobpilot-ai-recommender/
 ├── app.py
 ├── job_recommendation_pipeline.ipynb
 ├── README.md
@@ -72,7 +72,6 @@ jobpilot-portfolio/
 │   └── job_faiss_deploy.index
 └── data/
     ├── jobpilot_jobs_with_embedding_text_deploy.csv
-    ├── live_jobs_snapshot.csv
     └── sample_resume.pdf
 ```
 
